@@ -26,3 +26,7 @@ variable "my_keypair" {
     default = "aws_keypairta"
 
 }
+
+variable "number_of_instances" {
+    description = "Amount of instances to deploy"
+}
