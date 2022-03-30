@@ -31,7 +31,7 @@ resource "aws_security_group" "my_private_app_sg" {
 
     #INBOUND CONNECTIONS
     ingress {
-        description = "Allow SSH into the instance fromm the public instance private IP"
+        description = "Allow SSH into the instance from the public instance private IP"
         from_port = 22
         to_port = 22
         protocol = "tcp"
@@ -40,7 +40,7 @@ resource "aws_security_group" "my_private_app_sg" {
 
     #OUTBOUND CONNECTIONS
     egress {
-        description = "Allow acces to the world"
+        description = "Allow access to the world"
         from_port = 0
         to_port = 0
         protocol = "-1" #TCP + UDP
