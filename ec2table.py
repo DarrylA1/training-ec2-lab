@@ -26,3 +26,6 @@ def get_running_instances():
 if __name__ == "__main__":
     get_running_instances()
 
+get_running_instances()
+
+
